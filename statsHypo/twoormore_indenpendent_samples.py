@@ -59,9 +59,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')    
+            print('Probably different distributions')    
 
 
     def tukeys_hsd_test(self):
@@ -77,9 +77,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')
+            print('Probably different distributions')
 
 
 
@@ -95,14 +95,14 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
         stat, p = kruskal(self.P, *self.Q[0])
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')
+            print('Probably different distributions')
 
     
     def van_der_waerden_normal_test_k_independent_samples(self):
-	    ''' Test 23: Van der Waerden Normal-Scores Test for k Independent Samples '''
-	    
+        ''' Test 23: Van der Waerden Normal-Scores Test for k Independent Samples '''
+
         self.test_title='Van der Waerden Normal-Scores'
         print ('~'+str(self.test_title)+'~')
     
@@ -120,9 +120,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably equal variance')
+            print('Probably equal variance')
         else:
-        	print('Probably non equal variance')
+            print('Probably non equal variance')
 
 
     def bartletts_test(self):
@@ -138,9 +138,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably equal variance')
+            print('Probably equal variance')
         else:
-        	print('Probably non equal variance')
+            print('Probably non equal variance')
 
 
     def fligner_killeen_test(self):
@@ -156,9 +156,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably equal variance')
+            print('Probably equal variance')
         else:
-        	print('Probably non equal variance')
+            print('Probably non equal variance')
 
 
     def moods_median_test(self):
@@ -174,9 +174,9 @@ class InferenceTwoOrMoreIndenpendentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably equal medians')
+            print('Probably equal medians')
         else:
-        	print('Probably non equal medians')
+            print('Probably non equal medians')
        
 
 

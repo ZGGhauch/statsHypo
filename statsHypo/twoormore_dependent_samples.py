@@ -33,7 +33,7 @@ class InferenceTwoOrMoreDependentSamples(Samples):
         self.inf_parameters=inf_parameters
 
     
-	def single_factor_anova(self):
+    def single_factor_anova(self):
         ''' Test 24: Single-Factor Within-Subjects Analysis of Variance '''
         
         self.test_title='Single-Factor Within-Subjects ANOVA'
@@ -53,9 +53,9 @@ class InferenceTwoOrMoreDependentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably same distribution')
+            print('Probably same distribution')
         else:
-        	print('Probably different distributions')
+            print('Probably different distributions')
         
 
     def cochran_q_test(self):

@@ -68,9 +68,9 @@ class InferenceTwoIndependentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')
+            print('Probably different distributions')
             
             
     def mann_whitney_utest(self):
@@ -86,9 +86,9 @@ class InferenceTwoIndependentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
 
 
     def kolmogorov_smirnov_test(self):
@@ -104,20 +104,20 @@ class InferenceTwoIndependentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
 
 
     def siegel_tukey_test(self):
-	    ''' Test 14: Siegel–Tukey Test for Equal Variability '''
-	    
+        ''' Test 14: Siegel–Tukey Test for Equal Variability '''
+    
         self.test_title='Siegel–Tukey Test'
         print ('~'+str(self.test_title)+'~')
     
 
     def moses_test_variability(self):
-	    ''' Test 15: Moses Test for Equal Variability '''
+        ''' Test 15: Moses Test for Equal Variability '''
 
         self.test_title='Moses Test for Variability'
         print ('~'+str(self.test_title)+'~')
@@ -125,9 +125,9 @@ class InferenceTwoIndependentSamples(Samples):
     
     def chi_square_test(self):
         ''' Test 16: Chi square Test '''
-	    
+    
         self.test_title='Chi square Test'
-	    print ('~'+str(self.test_title)+'~')
+        print ('~'+str(self.test_title)+'~')
 
     
 
@@ -144,9 +144,9 @@ class InferenceTwoIndependentSamples(Samples):
         stat, p, dof, expected = chi2_contingency(table)
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably independent')
+            print('Probably independent')
         else:
-        	print('Probably dependent')
+            print('Probably dependent')
 
 
     def single_factor_between_subjects_anova(self):
@@ -176,9 +176,9 @@ class InferenceTwoIndependentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
 
         
     def epps_singleton_test(self):
@@ -194,9 +194,9 @@ class InferenceTwoIndependentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
                      
 
     def brunner_munzel_test(self):
@@ -212,9 +212,9 @@ class InferenceTwoIndependentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
         
         
     def ansari_bradley_test(self):
@@ -230,9 +230,9 @@ class InferenceTwoIndependentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
                    
  
     def moods_test(self):
@@ -248,9 +248,9 @@ class InferenceTwoIndependentSamples(Samples):
         
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')            
+            print('Probably different distributions')            
  
     
  

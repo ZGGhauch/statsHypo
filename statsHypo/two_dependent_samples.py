@@ -64,10 +64,10 @@ class InferenceTwoDependentSamples(Samples):
 
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably the same distribution')
+            print('Probably the same distribution')
         else:
-        	print('Probably different distributions')
-        
+            print('Probably different distributions')
+
 
     def binomial_sign_test_dependent(self):
         ''' Test 19: Binomial Sign Test for Two Dependent Samples '''
@@ -81,6 +81,4 @@ class InferenceTwoDependentSamples(Samples):
         
         self.test_title='McNemar Test'
         print ('~'+str(self.test_title)+str('~'))
-
-
 

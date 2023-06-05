@@ -36,9 +36,9 @@ class TimeSeries(Samples):
         print('stat=%.3f, p=%.3f' % (stat, p))
         
         if p > self.alpha:
-        	print('Probably not Stationary')
+            print('Probably not Stationary')
         else:
-        	print('Probably Stationary')
+            print('Probably Stationary')
 
 
     def kwiatkowski_phillips_schmidt_shin_test(self):
@@ -52,9 +52,9 @@ class TimeSeries(Samples):
         stat, p, lags, crit = kpss(self.P)
         print('stat=%.3f, p=%.3f' % (stat, p))
         if p > self.alpha:
-        	print('Probably Stationary')
+            print('Probably Stationary')
         else:
-        	print('Probably not Stationary')  
+            print('Probably not Stationary')  
     
     
     
