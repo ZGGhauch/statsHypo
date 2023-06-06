@@ -11,7 +11,7 @@ from scipy.stats import friedmanchisquare
 
 
 
-class InferenceTwoOrMoreDependentSamples(Samples):
+class InfTwoOrMoreDepSamp(Samples):
     ''' Inferential statistical tests employed with two or more dependent Samples
     
     Test 24: Single-Factor Within-Subjects Analysis of Variance

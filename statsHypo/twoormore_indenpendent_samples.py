@@ -18,7 +18,7 @@ from scipy.stats import median_test
 
 
 
-class InferenceTwoOrMoreIndenpendentSamples(Samples):
+class InfTwoOrMoreIndepSamp(Samples):
     ''' Inferential statistical tests employed with two or more independent Samples 
     
     Test 21: Single-Factor Between-Subjects Analysis of Variance

@@ -21,7 +21,7 @@ from numpy import sqrt, mean, log, abs
 
 
 
-class InferenceSingleSample(Samples):
+class InfOneSamp(Samples):
     ''' Inferential statistical tests employed with a single sample
         
     Test 1: Single-Sample Z-test

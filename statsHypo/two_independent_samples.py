@@ -19,7 +19,7 @@ from sample import Samples
 
 
 
-class InferenceTwoIndependentSamples(Samples):
+class InfTwoIndepSamp(Samples):
     ''' Inferential statistical tests employed with two independent samples 
     
     Test 11: T-Test for Two Independent Samples

@@ -13,7 +13,7 @@ from scipy.stats import wilcoxon
 
 
 
-class InferenceTwoDependentSamples(Samples):
+class InfTwoDepSamp(Samples):
     ''' Inferential statistical tests employed with two dependent samples 
     
     Test 17: T-test for Two Dependent Samples
